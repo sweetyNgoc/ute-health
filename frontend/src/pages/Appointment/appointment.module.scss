@@ -1,0 +1,91 @@
+.container{
+    .date{
+        min-width: 10em;
+        width: fit-content;
+        margin: 0 0 1em 0;
+    }
+    .appointmentList{
+        width: 80%;
+        border: 1px solid #f7f7f7;
+        border-radius: 10px;
+        padding-bottom: 5em;
+        min-width: 59em;
+        background: #d6ffea;
+        max-height: 75vh;
+        margin-bottom: 1em;
+        overflow: auto;
+        .appointmentContainer{
+            display: flex;
+            padding: 6em 0;
+            position: relative;
+            .timeSlot{
+                padding: 0 1em 1em 1em ;
+                width: 7em;
+                text-align: center;
+            }
+            .content{
+                position: absolute;
+                bottom: 0;
+                left: 8em;
+                background-color: rgb(255, 255, 233);
+                box-shadow: 1px 5px 6px silver;
+                min-width: 38em;
+                padding: 2em 2em 2em 4em;
+                margin: -3em 0;
+                border-radius: 12px;
+                transition: transform 0.1s ease;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                div{
+                    margin-top: .5em;
+                }
+                .review{
+                    position: absolute;
+                    top:0;
+                    right: 10px;
+                    color: yellow;
+                    background-color: rgb(233, 63, 37);
+                    padding: .2em .5em;
+                    border-radius: 5em;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 2em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1002;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+  }
+  .backgroundGreen{
+    background-color: #89c39d !important;
+  }
+  .feedback{
+    font-weight: 700;
+    span{
+        font-weight: 400;
+        font-style: italic;
+    }
+  }

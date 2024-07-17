@@ -1,0 +1,16 @@
+.container{
+    padding-bottom: 2em;
+    .header{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .doctorsContainer{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 cột có kích thước bằng nhau */
+        gap: 2em; /* Khoảng cách giữa các cột */
+    }
+}

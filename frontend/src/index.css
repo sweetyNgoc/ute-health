@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family:'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.d-flex{
+  display: flex;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.react-calendar {
+    width: 90% !important;
+    height: 50vh !important;
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 5px silver !important;
+    background: #fafffe !important;
+    font-family: 'Montserrat' !important;
+    
+    max-width: 100% !important;
+    
+    border: 1px solid #a0a096 !important;
+    line-height: 1.125em !important;
+}
+.react-calendar__navigation__label__labelText, .react-calendar__navigation__label__labelText--from{
+  font-family: Montserrat !important;
+}
+.flipped-video {
+  transform: scaleX(-1); 
+}
+.video-box {
+      padding: 1em;
+    box-shadow: 1px 2px 3px silver;
+    background: #fffefe;
+    border-radius: 10px;
+}
+.chat-name{
+  font-weight: 600;
+  text-align: center;
+}
+.date-off {
+  background-color: #e62626 !important; /* Light red background */
+  color: #fff; /* Red text color */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+.date-appointment {
+  background-color: rgb(46, 134, 37) !important;
+  color: white !important;
+}

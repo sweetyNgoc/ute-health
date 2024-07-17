@@ -1,0 +1,23 @@
+.container {
+    padding-bottom: 2em;
+
+    .departmentContainer {
+        margin-bottom: 2em;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cột có kích thước bằng nhau */
+        gap: 2em;
+        /* Khoảng cách giữa các cột */
+    }
+
+    .statisticContainer {
+        margin-bottom: 2em;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* 3 cột có kích thước bằng nhau */
+        gap: 2em;
+        /* Khoảng cách giữa các cột */
+    }
+}
